@@ -26,7 +26,7 @@ public class Endereco implements Serializable {
     private Integer id;
     private String logradouro;
     private String numero;
-    private String complimento;
+    private String complemento;
     private String bairro;
     private String cep;
 
@@ -44,19 +44,13 @@ public class Endereco implements Serializable {
 
     }
 
-    public Cidade getCidade() {
-        return cidade;
-    }
 
-    public void setCidade(Cidade cidade) {
-        this.cidade = cidade;
-    }
 
-    public Endereco(Integer id, String logradouro, String numero, String complimento, String bairro, String cep, Cliente cliente, Cidade cidade) {
+    public Endereco(Integer id, String logradouro, String numero, String complemento, String bairro, String cep, Cliente cliente, Cidade cidade) {
         this.id = id;
         this.logradouro = logradouro;
         this.numero = numero;
-        this.complimento = complimento;
+        this.complemento = complemento;
         this.bairro = bairro;
         this.cep = cep;
         this.cliente = cliente;
@@ -87,12 +81,12 @@ public class Endereco implements Serializable {
         this.numero = numero;
     }
 
-    public String getComplimento() {
-        return complimento;
+    public String getComplemento() {
+        return complemento;
     }
 
-    public void setComplimento(String complimento) {
-        this.complimento = complimento;
+    public void setComplemento(String complemento) {
+        this.complemento = complemento;
     }
 
     public String getBairro() {
@@ -119,6 +113,13 @@ public class Endereco implements Serializable {
         this.cliente = cliente;
     }
 
+    public Cidade getCidade() {
+        return cidade;
+    }
+
+    public void setCidade(Cidade cidade) {
+        this.cidade = cidade;
+    }
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
