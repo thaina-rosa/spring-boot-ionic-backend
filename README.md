@@ -6,9 +6,9 @@ API-REST
 http://localhost:8080/categorias
 
 A aplicação web  foi construída durante o curso de Spring Boot, Hibernate, REST, Ionic, JWT, S3, MySQL, MongoDB
-, como ultimo projeto para se concluir a seção dois.
+, como ultimo projeto para se concluir a seção 3.
 
-A aplicação consiste em um catalogo de produtos de informátia, realizando operações de cadastro de produtos, cadastro de cliente relacionamento entre o cliente seus telefones cidades e estados, listagem e exclusão. 
+A aplicação consiste em um catalogo de produtos de informática,escritorio, ferramentas e outros produtos, realizando operações de cadastro de produtos, cadastro de cliente relacionamento entre o cliente seus telefones cidades e estados, listagem, exclusão, metodo de pagamentos, possibilidades de parcelamento e estado do pagamento. 
 
 # Tecnologias utilizadas
 ## Back end
@@ -17,11 +17,11 @@ A aplicação consiste em um catalogo de produtos de informátia, realizando ope
 - JPA / Hibernate
 - Maven
 - Json
-- Banco de dados H2
+- Banco de dados JPQL
 
 ## Implantação em produção
 - Back end: Spring Boot
-- Banco de dados: H2
+- Banco de dados: JPQL
 ## Testes
 - Back end: Postman
 - Back end: Json
@@ -33,7 +33,7 @@ Pré-requisitos: Java 11
 
 ```bash
 # clonar repositório
-git clone https://github.com/thaina-rosa/Projeto-Udemy
+git clone https://github.com/thaina-rosa/spring-boot-ionic-backend
 
 # entrar na pasta do projeto back end
 cd src
@@ -43,7 +43,7 @@ cd src
 
 ```bash
 # clonar repositório
-git clone https://github.com/thaina-rosa/API/tree/https_/github.com/thaina-rosa/Projeto-Udemy.git/src
+git clone https://github.com/thaina-rosa/spring-boot-ionic-backend.git
 
 # instalar dependências
 yarn install
